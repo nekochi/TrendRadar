@@ -2,7 +2,7 @@
 #                    TrendRadar 频率词配置文件
 #                         Version: 1.1.0
 # ═══════════════════════════════════════════════════════════════
-# 关注范围：AI 科技、游戏开发（国内源）
+# 关注范围：AI 科技、游戏开发/内容、自媒体创业
 # 可视化配置编辑器: https://sansan0.github.io/TrendRadar/
 
 [GLOBAL_FILTER]
@@ -99,28 +99,80 @@ AIGC
 游戏引擎
 游戏开发
 独立游戏
-/\bSteam\b/i
+/\bSteam\b|\bSteam Deck\b/i
 /\bEpic Games\b|\bEpic\b/i
+/\bitch\.io\b/i
+/\bGame Pass\b/i
 
 [游戏公司 / 作品]
 /米哈游|原神|崩坏|绝区零|\bHoyoverse\b/i
-/网易游戏|逆水寒|永劫无间|蛋仔/
-/腾讯游戏|天美|光子|魔方/
+/网易游戏|逆水寒|永劫无间|蛋仔|无尽的拉格朗日/
+/腾讯游戏|天美|光子|魔方|王者荣耀|和平精英|三角洲行动/
 /完美世界|西山居/
 /莉莉丝|剑与远征/
-/鹰角|明日方舟/
+/鹰角|明日方舟|终末地/
 /库洛|鸣潮|\bKuro Games\b/i
 /黑神话|冯骥|游戏科学/
 /影之刃|梁其伟/
 /叠纸|恋与|无限暖暖/
+/索尼|\bPlayStation\b|\bPS5\b|\bPSSR\b/i
+/任天堂|\bNintendo\b|\bSwitch\b|\b塞尔达\b|\b马里奥\b/i
+/微软|\bXbox\b|\bBethesda\b/i
+/\bGTA\b|\bRockstar\b/i
+/\bFromSoftware\b|艾尔登法环|黑魂|只狼/
+/\bValve\b|\bHalf-Life\b|\bCounter-Strike\b|\bCS2\b/i
 主机游戏
 手游
 端游
 买断制
 PC游戏
-/\bGDC\b|\bTGA\b/i
+二次元游戏
+开放世界
+/\bGDC\b|\bTGA\b|\bGamescom\b|\bE3\b/i
 版号
 过审
+新游
+预约
+公测
+内测
+抢先体验
+
+[游戏品类 / 热点]
+单机游戏
+联机游戏
+魂系
+肉鸽
+/\bRoguelike\b|\bRoguelite\b/i
+生存建造
+模拟经营
+策略游戏
+/\bFPS\b|\bTPS\b/i
+MOBA
+大世界
+乙女游戏
+修仙游戏
+放置游戏
+小游戏
+/\bindie\b|独立工作室/i
+
+[游戏内容 / 社区]
+游戏测评
+游戏评测
+游戏实况
+游戏攻略
+游戏二创
+游戏剪辑
+游戏解说
+速通
+/\bSpeedrun\b/i
+MOD
+同人
+玩家社区
+/\bDiscord\b/i
+/\bTwitch\b/i
+直播打游戏
+游戏博主
+游戏UP主
 
 [游戏技术]
 /\bShader\b/i
@@ -134,3 +186,90 @@ PC游戏
 /\bECS\b|\bDOTS\b/i
 游戏AI
 数值策划
+美术外包
+外包制作
+
+
+# ═══════════════════════════════════════════════════════════════
+#                         自媒体 / 博主
+# ═══════════════════════════════════════════════════════════════
+
+[自媒体创业]
+自媒体
+博主
+创作者
+内容创作
+内容创业
+副业
+搞钱
+变现
+流量密码
+涨粉
+起号
+账号运营
+人设
+垂直领域
+知识付费
+课程
+社群
+私域
+/\bMCN\b/i
+签约
+全职博主
+兼职博主
+
+[短视频 / 直播]
+短视频
+直播
+带货
+直播带货
+口播
+分镜
+脚本
+选题
+爆款
+完播率
+播放量
+点赞
+收藏
+转发
+投流
+加热
+商业合作
+品牌合作
+广告植入
+佣金
+CPS
+/\bROI\b/i
+
+[内容平台]
+/B站|哔哩哔哩|\bBilibili\b|UP主|创作激励/i
+/抖音|抖音创作者|巨量引擎/
+/小红书|笔记|种草/
+/视频号|公众号|微信公众号/
+/\bYouTube\b|\bYouTuber\b|油管/i
+/\bTikTok\b/i
+快手
+微博超话
+知乎盐选
+播客
+图文账号
+
+[创作工具 / AI 内容]
+剪映
+必剪
+Premiere
+/\bPR\b|剪辑软件/
+/\bFinal Cut\b|\bDaVinci\b/i
+配音
+字幕
+封面
+缩略图
+/\bAIGC\b|AI写作|AI绘图|AI视频|AI配音/i
+/\bMidjourney\b|\bStable Diffusion\b|\b即梦\b|\b可灵\b|\bRunway\b|\bPika\b/i
+数字人
+虚拟主播
+/\bVTuber\b|虚拟UP/i
+素材
+版权
+商用授权
