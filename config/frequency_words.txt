@@ -56,13 +56,14 @@ AIGC
 
 [海外 AI]
 /\bOpenAI\b|\bChatGPT\b|\bGPT-?\d|\bSora\b|\bSam Altman\b/i
+/\bCodex\b|\bOpenAI Codex\b/i
 /\bAnthropic\b|\bClaude\b/i
 /\bGemini\b|\bDeepMind\b/i
 /\bGrok\b|\bxAI\b/i
 /\bMidjourney\b|\bStable Diffusion\b|\bFlux\b/i
 
 [AI 应用与基建]
-/\bCursor\b|\bCopilot\b|\bClaude Code\b/i
+/\bCursor\b|\bCopilot\b|\bClaude Code\b|\bCodex\b/i
 /\bLangChain\b|\bLlamaIndex\b/i
 向量数据库
 /\bRAG\b/i

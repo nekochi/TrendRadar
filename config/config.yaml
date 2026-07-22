@@ -135,7 +135,7 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
-      enabled: false                  # 海外源，已关闭
+      enabled: true                   # 国外科技榜，标题由 AI 翻译成中文
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
@@ -146,7 +146,7 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 海外源，已关闭
+      enabled: false                  # 噪音较多，暂关
 
     # 自定义源示例
     # - id: "custom-feed"
@@ -456,7 +456,7 @@ ai_translation:
 
   # 翻译范围（display.regions 关闭的区域即使开启也不会翻译）
   scope:
-    hotlist: false                  # 翻译热榜标题（true=翻译, false=不翻译）
+    hotlist: true                   # 翻译热榜标题（true=翻译, false=不翻译）
     rss: true                       # 翻译 RSS 标题（true=翻译, false=不翻译）
     standalone: true                # 翻译独立展示区标题（true=翻译, false=不翻译）
 
