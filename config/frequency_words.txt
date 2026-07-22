@@ -28,57 +28,62 @@
 # ═══════════════════════════════════════════════════════════════
 
 [AI / 大模型]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/
+/\bAI\b/i
 人工智能
 大模型
-/\bLLM\b/
+/\bLLM\b/i
 生成式
 AIGC
 智能体
-/\bAgent\b/
+/\bAgent\b/i
 多模态
+机器学习
+深度学习
 
 [国产大模型]
-/深度求索|\bDeepSeek\b/
-/通义|千问|\bQwen\b/
-/智谱|\bGLM\b|\bChatGLM\b/
-/月之暗面|\bKimi\b|\bMoonshot\b/
-/百川|\bBaichuan\b/
-/豆包|扣子|\bCoze\b/
+/深度求索|\bDeepSeek\b/i
+/通义|千问|\bQwen\b/i
+/智谱|\bGLM\b|\bChatGLM\b/i
+/月之暗面|\bKimi\b|\bMoonshot\b/i
+/百川|\bBaichuan\b/i
+/豆包|扣子|\bCoze\b/i
 /文心|一言/
 /混元/
-/阶跃|\bStepFun\b/
-/MiniMax|\bminimax\b/
-/零一万物|\bYi\b/
+/阶跃|\bStepFun\b/i
+/MiniMax|\bminimax\b/i
+/零一万物/
 /面壁|\bInternLM\b|书生/
 
 [海外 AI]
-/\bOpenAI\b|\bChatGPT\b|\bGPT-?\d|\bSora\b|\bSam Altman\b/
-/\bAnthropic\b|\bClaude\b/
-/\bGemini\b|\bDeepMind\b/
-/\bGrok\b|\bxAI\b/
-/\bMidjourney\b|\bStable Diffusion\b|\bFlux\b/
+/\bOpenAI\b|\bChatGPT\b|\bGPT-?\d|\bSora\b|\bSam Altman\b/i
+/\bAnthropic\b|\bClaude\b/i
+/\bGemini\b|\bDeepMind\b/i
+/\bGrok\b|\bxAI\b/i
+/\bMidjourney\b|\bStable Diffusion\b|\bFlux\b/i
 
-[AI 应用与基础设施]
-/\bCursor\b|\bCopilot\b|\bClaude Code\b/
-/\bLangChain\b|\bLlamaIndex\b/
+[AI 应用与基建]
+/\bCursor\b|\bCopilot\b|\bClaude Code\b/i
+/\bLangChain\b|\bLlamaIndex\b/i
 向量数据库
-RAG
-推理
-训练
-微调
+/\bRAG\b/i
 开源模型
+微调
+推理芯片
 算力
-/\bToken\b/
+/\bToken\b/i
 
 [芯片 / 算力]
 芯片
 光刻机
 半导体
-/\bGPU\b|\bCUDA\b/
-/英伟达|\bNVIDIA\b|\bRTX\b|\bH100\b|\bH200\b|\bB200\b/
+/\bGPU\b|\bCUDA\b/i
+/英伟达|\bNVIDIA\b|\bRTX\b|\bH100\b|\bH200\b|\bB200\b/i
 /昇腾|海思|鲲鹏|寒武纪|摩尔线程|壁仞/
-/\bAMD\b|锐龙|霄龙/
+/\bAMD\b|锐龙|霄龙/i
+机器人
+具身智能
+自动驾驶
+智驾
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -86,26 +91,24 @@ RAG
 # ═══════════════════════════════════════════════════════════════
 
 [游戏引擎 / 工具]
-/\bUnity\b/
-/\bUnreal\b|虚幻引擎|\bUE5?\b/
-/\bGodot\b/
-/\bCocos\b/
+/\bUnity\b/i
+/\bUnreal\b|虚幻引擎|\bUE5?\b/i
+/\bGodot\b/i
+/\bCocos\b/i
 游戏引擎
 游戏开发
 独立游戏
-/\bSteam\b/
-/\bEpic\b/
-/\bGit\b/
-版本管理
+/\bSteam\b/i
+/\bEpic Games\b|\bEpic\b/i
 
 [游戏公司 / 作品]
-/米哈游|原神|崩坏|绝区零|\bHoyoverse\b/
+/米哈游|原神|崩坏|绝区零|\bHoyoverse\b/i
 /网易游戏|逆水寒|永劫无间|蛋仔/
 /腾讯游戏|天美|光子|魔方/
 /完美世界|西山居/
 /莉莉丝|剑与远征/
 /鹰角|明日方舟/
-/库洛|鸣潮|\bKuro\b/
+/库洛|鸣潮|\bKuro Games\b/i
 /黑神话|冯骥|游戏科学/
 /影之刃|梁其伟/
 /叠纸|恋与|无限暖暖/
@@ -113,10 +116,13 @@ RAG
 手游
 端游
 买断制
-/\bPC\b游戏/
+PC游戏
+/\bGDC\b|\bTGA\b/i
+版号
+过审
 
 [游戏技术]
-/\bShader\b/
+/\bShader\b/i
 渲染
 物理引擎
 关卡设计
@@ -124,7 +130,6 @@ RAG
 网络同步
 客户端
 服务端
-/\bECS\b/
-/\bDOTS\b/
-游戏 AI
+/\bECS\b|\bDOTS\b/i
+游戏AI
 数值策划
