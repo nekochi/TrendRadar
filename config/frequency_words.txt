@@ -73,6 +73,19 @@ AIGC
 算力
 /\bToken\b/i
 
+[开源 / GitHub]
+/\bGitHub\b/i
+开源项目
+开源工具
+星标
+/\bstar\b|加星/i
+/\bTrending\b/i
+仓库
+/\brepo\b|\brepository\b/i
+/\bHugging\s?Face\b|\bHF\b/i
+模型仓库
+数据集
+
 [芯片 / 算力]
 芯片
 光刻机
